@@ -5,7 +5,7 @@ Sets up a Python project on Mac OS X with VSCode, git, and Poetry support before
 * Python 3.7 or higher
 * Install [Poetry](https://python-poetry.org).
 * Install [GitHub CLI](https://cli.github.com).
-* Once you've cloned the pydevenv repo, include a `pat.txt` file in the folder that contains your GitHub Personal Access Token. This PAT must have ability to create, commit and push to GitHub. (If you're having trouble locating this, go to your GitHub profile, and select "Settings": "Developer Settings": "Personal Access Tokens": "Tokens (classic)" along the left-hand menu.)
+* Once you've cloned the pydevenv repo, include a `pat.txt` file in the folder that contains your GitHub Personal Access Token. This PAT must have ability to create a repo, commit files and push them to GitHub. (If you're having trouble locating this feature, go to your GitHub profile, and select "Settings": "Developer Settings": "Personal Access Tokens": "Tokens (classic)" along the left-hand menu.)
 * Add the `pydevenv` folder to your PATH.
 
 ## Run 
