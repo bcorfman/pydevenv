@@ -1,6 +1,8 @@
 #!/bin/bash
 EnvDir="${PYENVDIR:-$HOME/dev/python/pydevenv}"
 if [ $1 ]; then
+    poetry config virtualenvs.in-project true
+    poetry config virtualenvs.prefer-active-python true
     poetry new $1 > /dev/null
     cd $1
     poetry add ipython pysnooper flake8 black pytest pytest-cov --group dev > /dev/null
@@ -8,11 +10,11 @@ if [ $1 ]; then
     gh auth login --with-token < $EnvDir/pat.txt
     cp $EnvDir/pytest.ini .
     cp $EnvDir/.flake8 .
-    mkdir .vscode
+    mkdir .vscode 2> /dev/null 
     cp $EnvDir/settings.json .vscode/
     cp $EnvDir/launch.json .vscode/
     git add .
     git commit -m "Initial commit" > /dev/null
     git branch -M main > /dev/null
-    gh repo create $1 --public --push --source=. > /dev/null 2> /dev/null
+    gh repo create $1 --public --push --source=. > /dev/null 
 fi
