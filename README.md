@@ -1,5 +1,5 @@
 # pydevenv
-Sets up a Python project on Mac OS X with VSCode, git, and Poetry support before creating and pushing the project files up to GitHub with an initial commit. In other words, it's some basic project-level Infrastructure-as-Code (IaC) for setting up my development environment the way I want. The setup will continue to evolve over time as I hopefully discover better ways to do things.
+Sets up a Python project on Mac OS X with VSCode, git, and Poetry support before creating and pushing the project files up to GitHub with an initial commit. In other words, it's some basic project-level Infrastructure-as-Code (IaC) for my idea of a "best" development environment. I'll continue to evolve this idea of "best" over time as I discover improved ways to do things.
 
 ## Prerequisites
 * Python 3.7 or higher
@@ -12,4 +12,3 @@ Sets up a Python project on Mac OS X with VSCode, git, and Poetry support before
 * From a command prompt inside your development folder, type `pydevenv [project_name]`, e.g., `pydevenv helloworld`.
   - NOTE: `pydevenv` will use the Python executable that it finds first on your PATH when setting up the virtual environment for your project. I use [`pyenv`](https://github.com/pyenv/pyenv) to choose the specific Python version I want before calling `pydevenv`. 
 * Once the script finishes, you will have a Python project named project_name under Git source control, and a copy of your new project on GitHub as well.
-* This is my opinionated way to set up projects, but you can easily clone my code and modify the `pydevenv` script any way you like. 
