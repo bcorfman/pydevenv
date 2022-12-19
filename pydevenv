@@ -8,6 +8,7 @@ if [ $1 ]; then
     poetry add ipython pysnooper flake8 black pytest pytest-cov --group dev > /dev/null
     git init > /dev/null
     gh auth login --with-token < $EnvDir/pat.txt
+    cp $EnvDir/.gitignore .
     cp $EnvDir/pytest.ini .
     cp $EnvDir/.flake8 .
     mkdir .vscode 2> /dev/null 
