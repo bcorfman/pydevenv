@@ -9,5 +9,6 @@ Sets up a Python project on Mac OS X with VSCode, git, and Poetry support before
 * Add the `pydevenv` folder to your PATH.
 
 ## Run 
-* From a command prompt inside your development folder, type `pydevenv [project_name]`, e.g., `pydevenv helloworld`.
-* Once the script finishes, you will have a basic Python project under Git source control, with a copy of your new project on GitHub as well.
+* From a command prompt inside your development folder, type `pydevenv [project_name]`, e.g., `pydevenv helloworld`. 
+NOTE: `pydevenv` will use the Python executable that it finds first on your PATH. I use [`pyenv`](https://github.com/pyenv/pyenv) to manage the specific Python version I want for my projects. 
+* Once the script finishes, you will have a Python project named project_name under Git source control, and a copy of your new project on GitHub as well.
