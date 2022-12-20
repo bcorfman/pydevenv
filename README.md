@@ -8,7 +8,7 @@ Sets up a Python project on Mac OS X with VSCode, git, and Poetry support before
 
 ## Setup
 * Clone the `pydevenv` repo. 
-* Create a $PYDEVENV environment variable with a path to your local copy of the `pydevenv` repo.
+* Create a $PYDEVENV environment variable with a path to your local copy of the `pydevenv` repo, or modify the 2nd line of the `pydevenv` script to use your repo path instead of mine.
 * Create a `pat.txt` file in the pydevenv folder. The `pat.txt` should contain your GitHub Personal Access Token. This PAT must have ability to create a repo, commit files and push them to GitHub. (To create the PAT initially, go to your GitHub profile and select "Settings": "Developer Settings": "Personal Access Tokens": "Tokens (classic)" along the left-hand menu.)
 * Finally, add the `pydevenv` folder to your PATH.
 
