@@ -3,7 +3,7 @@ Sets up a Python project on Mac OS X with VSCode, git, and Poetry support before
 
 ## Prerequisites
 * Python 3.7 or higher
-* Install [Poetry](https://python-poetry.org). (I would much rather use PDM as my dependency manager, but I can't script my choices or defaults like I can with Poetry.) 
+* Install [Poetry](https://python-poetry.org). 
 * Install [GitHub CLI](https://cli.github.com). 
 
 ## Setup
