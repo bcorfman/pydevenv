@@ -1,5 +1,5 @@
 # pydevenv
-Sets up a Python project on Mac OS X with VSCode, git, and Poetry support before creating and pushing the project files up to GitHub with an initial commit. In other words, it's some basic project-level Infrastructure-as-Code (IaC) for my idea of a "best" development environment. I'll continue to evolve this idea of "best" over time as I discover improved ways to do things.
+Sets up a Python project in a Unix-based environment (e.g., Mac OS X or Linux) with VSCode, git, and Poetry support before creating and pushing the project files up to GitHub with an initial commit. In other words, it's some basic project-level Infrastructure-as-Code (IaC) for my idea of a "best" development environment. I'll continue to evolve this idea of "best" over time as I discover improved ways to do things.
 
 ## Prerequisites
 * Python 3.7 or higher
