@@ -27,7 +27,7 @@ then
    exit 1;
 elif [[ -z ${1} ]]
 then
-    echo "usage: pydevenv project_folder\n"
+    echo "usage: pydevenv project_folder"
     exit 1;
 else 
     if [[ $1 == "-v" || $1 == "--VERBOSE" ]]; then
